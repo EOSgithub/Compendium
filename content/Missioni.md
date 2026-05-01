@@ -1,11 +1,3 @@
-Ogni anima di Luyarnha porta il peso di storie non raccontate, segreti e destini incompiuti. 
-Ciascuna delle missioni personali qui presentate si basa sui background della campagna, fornendo un obiettivo unico e su misura per le origini dei personaggi. 
-
-Quando un personaggio completa la sua missione personale, può scegliere una delle seguenti ricompense: 
-- Un punteggio di caratteristica a tua scelta aumenta di 2, così come il tuo massimo per quel punteggio. Nuovo talento. 
-- Ottieni un talento bonus a tua scelta, soggetto all'approvazione del GM.
-
----
 ## Un Nobile Filo 
 *Background: Scion, Investigatore, Amnesico*
 Sussurri aleggiano da sempre nella mia famiglia, suggerendo che la nostra stirpe possa risalire alla nobiltà, un'idea liquidata come fantasia da molti ma segretamente custodita da alcuni. 
