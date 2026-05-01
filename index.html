@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0806" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="description" content="Compendio della campagna di D&D Eldritch Hunt — razze, sottoclassi, backgrounds, missioni e regole aggiuntive." />
+  <title>Eldritch Hunt — Compendio della Campagna</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='75' font-size='90' text-anchor='middle' fill='%23c9a961'>%E2%9A%9C</text></svg>" />
+</head>
+<body>
+  <div id="app">
+    <!-- ======================= MENU VIEW ======================= -->
+    <section id="menu-view" class="view active" aria-labelledby="grand-title">
+      <div class="vignette" aria-hidden="true"></div>
+
+      <header class="grand-header">
+        <div class="ornament" aria-hidden="true"></div>
+        <p class="overline">Compendio della Campagna</p>
+        <h1 id="grand-title" class="grand-title">Eldritch<br /><span class="title-accent">Hunt</span></h1>
+        <p class="grand-subtitle"><em>Tomo dei Cacciatori di Luyarnha</em></p>
+        <div class="ornament ornament-flipped" aria-hidden="true"></div>
+      </header>
+
+      <nav class="menu" aria-label="Menu principale">
+        <a class="menu-item" href="#/razze">
+          <span class="menu-icon" aria-hidden="true">&#x269C;</span>
+          <span class="menu-text">
+            <span class="menu-title">Razze</span>
+            <span class="menu-sub">I figli della città maledetta</span>
+          </span>
+          <span class="menu-arrow" aria-hidden="true">&rsaquo;</span>
+        </a>
+
+        <a class="menu-item" href="#/sottoclassi">
+          <span class="menu-icon" aria-hidden="true">&#x2694;</span>
+          <span class="menu-text">
+            <span class="menu-title">Sottoclassi</span>
+            <span class="menu-sub">Sentieri di vocazione</span>
+          </span>
+          <span class="menu-arrow" aria-hidden="true">&rsaquo;</span>
+        </a>
+
+        <a class="menu-item" href="#/backgrounds">
+          <span class="menu-icon" aria-hidden="true">&#x2766;</span>
+          <span class="menu-text">
+            <span class="menu-title">Backgrounds</span>
+            <span class="menu-sub">Frammenti del passato</span>
+          </span>
+          <span class="menu-arrow" aria-hidden="true">&rsaquo;</span>
+        </a>
+
+        <a class="menu-item" href="#/missioni">
+          <span class="menu-icon" aria-hidden="true">&#x2726;</span>
+          <span class="menu-text">
+            <span class="menu-title">Missioni Personali</span>
+            <span class="menu-sub">Voti e fardelli individuali</span>
+          </span>
+          <span class="menu-arrow" aria-hidden="true">&rsaquo;</span>
+        </a>
+
+        <a class="menu-item" href="#/regole">
+          <span class="menu-icon" aria-hidden="true">&#x2625;</span>
+          <span class="menu-text">
+            <span class="menu-title">Regole Aggiuntive</span>
+            <span class="menu-sub">Statuti della Caccia</span>
+          </span>
+          <span class="menu-arrow" aria-hidden="true">&rsaquo;</span>
+        </a>
+      </nav>
+
+      <footer class="grand-footer">
+        <div class="ornament ornament-small" aria-hidden="true"></div>
+        <p class="footer-text"><em>«Quando la Luna di Sangue sorge, anche le pietre tacciono.»</em></p>
+      </footer>
+    </section>
+
+    <!-- ======================= SECTION VIEW ======================= -->
+    <section id="section-view" class="view" aria-labelledby="section-title">
+      <div class="vignette" aria-hidden="true"></div>
+
+      <header class="section-header">
+        <a class="back-button" href="#/menu" aria-label="Torna al menu principale">
+          <span class="back-arrow" aria-hidden="true">&lsaquo;</span>
+          <span class="back-text">Indietro</span>
+        </a>
+      </header>
+
+      <div class="section-title-wrap">
+        <div class="ornament ornament-small" aria-hidden="true"></div>
+        <h1 id="section-title" class="section-title">Sezione</h1>
+        <div class="ornament ornament-small ornament-flipped" aria-hidden="true"></div>
+      </div>
+
+      <div class="section-content" id="section-content"></div>
+
+      <footer class="section-footer">
+        <div class="ornament ornament-small" aria-hidden="true"></div>
+      </footer>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
