@@ -237,22 +237,30 @@ appartenevano.
 - Se il tuo allineamento è Malvagio, lasci che il mostro depravato dentro di te ti influenzi. Hai svantaggio ai tiri salvezza contro la follia, ma ottieni un bonus ai tiri salvezza su Destrezza pari al tuo bonus di competenza.
 
 **Sottorazze.** La tua sottorazza è determinata da una maledizione Eldritica, e sembra che qualsiasi aspetto della tua personalità sia più depravato influenzerà la bestia che emergerà. Scegli uno:
-![Aranea](img/Aranea.png)
+
+![Aranea](img/Arenea.png)
+
 - *Aranea.* Chi trama e tesse una rete di bugie intorno a sé è, prevedibilmente, destinato a trasformarsi in un'aranea. Tra gli esseri della Piaga, le arane sono i meno affidabili, e il loro aspetto rivela la loro personalità manipolatrice, passata o presente. Sebbene la maggior parte dei cittadini comprenda la necessità della violenza, soprattutto a Luyarnha, nessuno tollera l'inganno e il tradimento.
 	- Il punteggio di Intelligenza aumenta di 1 e un punteggio a tua scelta aumenta di 1.
 	- Hai una velocità di scalata di 30ft. Inoltre, puoi scalare superfici difficili, inclusi i soffitti a testa in giù, senza dover effettuare una prova di abilità. Puoi farlo solo per un numero di minuti pari al tuo bonus di competenza e recuperi tutti i minuti spesi al termine di un riposo lungo.
 	- Come azione bonus, lanci una ragnatela appiccicosa contro una creatura entro 20ft da te; questa deve superare un tiro salvezza su Destrezza (CD = 8 + il tuo bonus di competenza + il tuo modificatore di Costituzione) o essere immobilizzata dalla ragnatela. Come azione, il bersaglio immobilizzato può effettuare una prova di Forza contro la CD, distruggendo la ragnatela e liberandosi in caso di successo. La ragnatela può anche essere attaccata e distrutta (CA 10; PF pari a 3 volte il tuo bonus di competenza; vulnerabilità ai danni da fuoco; immunità ai danni contundenti, velenosi e psichici). Una volta utilizzata questa capacità, non puoi usarla di nuovo fino a quando non completi un riposo lungo.
+
 ![Belua](img/Belua.png)
+
 - *Belua.* Coloro che covano una rabbia repressa dentro di sé spesso si trasformano nelle bestie più feroci. I Belua, noti anche come mezzolupi, sono i più feroci tra tutti i Figli della Piaga che vagano per le strade di Luyarnha. Molti di loro scelgono di nascondere gli occhi, poiché la loro intensa sete di sangue tinge il loro sguardo di rosso cremisi, uno spettacolo terrificante per i non iniziati.
 	- Il tuo punteggio di Forza aumenta di 1 e un punteggio a tua scelta aumenta di 1.
 	- Hai vantaggio alle prove di Percezione basate sull'udito o sull'olfatto.
 	- Come azione bonus, puoi tentare di nutrirti di una creatura entro 5ft da te. Esegui un attacco senz'armi. In caso di successo, recuperi punti ferita pari al danno inflitto. Puoi usare questa capacità un numero di volte pari al tuo bonus di competenza e recuperi tutti gli utilizzi spesi al termine di un riposo lungo.
+
 ![Cervus](img/Cervus.png)
+
 - *Cervus.* La più rara tra le creature della Piaga. Per diventare un cervus, chiamato anche mezzo cervo o waldschrat, bisognava aver commesso il più abietto dei peccati: divorare la carne dei propri simili. O almeno così si diceva. Questa leggenda metropolitana è stata smentita da tempo, poiché molte delle figure più fidate della città si sono trasformate in tali creature. È interessante notare che coloro che diventano cervus sembrano essere i più abili nel combattere le creature della notte, un'abilità che si guadagna il rispetto dei cacciatori di tutta la città-stato.
 	- Il tuo punteggio di Saggezza o il tuo punteggio di Forza aumentano di 1, e un punteggio di a tua scelta aumenta di 1.
 	- La tua velocità di movimento aumenta di 10ft.
 	- Se ti muovi di almeno 20ft in linea retta verso una creatura e poi la colpisci con un attacco in mischia nello stesso turno, quel bersaglio deve superare un tiro salvezza su Forza (CD 8 + il tuo bonus di competenza + il tuo modificatore di Forza) o essere atterrato. Se il bersaglio è atterrato, puoi effettuare un attacco in mischia contro di esso come azione bonus. Puoi usare questa capacità un numero di volte pari al tuo bonus di competenza e recuperi tutti gli utilizzi spesi al termine di un riposo lungo.
+
 ![Vespertilio](img/Vespertilio.png)
+
 - *Vespertilio.* Coloro che si sono nascosti per paura di fronte alle avversità sono maledetti a diventare queste bestie della notte. I Vespertilio - anche noti come mezzi pipistrelli - rappresentano alcune delle creature più maledette tra i portati dalla Piaga. La loro riluttanza a vedere i propri problemi ha assunto una forma letterale, poiché gran parte della loro vista è stata loro rubata. Invece, hanno ricevuto ali mezze spezzate in una crudele farsa del destino, come per fuggire dai loro problemi.
 	- Il tuo punteggio di Destrezza aumenta di 1 e un punteggio a tua scelta aumenta di 1.
 	- Hai vista cieca fino a 30ft e hai svantaggio su qualsiasi prova di caratteristica o tiro per colpire che richieda la vista oltre questo raggio.
