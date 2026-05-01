@@ -6,7 +6,7 @@ Chiamati "maledetti" per il loro aspetto mostruoso, sono temuti dalla maggior pa
 Questi tiefling possiedono una frazione del potere illimitato di riproduzione della loro "Madre" e sono incapaci di procreare, sebbene possano comunque creare copie effimere di se stessi per combattere in battaglia. 
 Questi tiefling non rimangono mai a lungo in città, svanendo poco dopo aver raggiunto l'età adulta.
 
-![Tiefling Maledetto](img/Tiefling.png)
+![Tiefling Maledetto](content/img/Tiefling.png)
 
 *Aspetto.* I tiefling maledetti differiscono enormemente dai loro fratelli. Invece di un paio di corna, ne hanno a dozzine che sporgono dal cranio, simili a una crescita cancerosa. La loro forma mostruosa è ulteriormente accentuata dalle protuberanze simili a occhi che ricoprono le corna, sebbene non siano altro che germogli ossei in attesa di sbocciare. La loro pelle è spessa, ricoperta di pelliccia, e i loro arti muscolosi sono grossolanamente deformi; la metà umana della loro eredità è quasi scomparsa del tutto.
 
