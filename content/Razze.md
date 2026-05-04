@@ -6,7 +6,7 @@ Chiamati "maledetti" per il loro aspetto mostruoso, sono temuti dalla maggior pa
 Questi tiefling possiedono una frazione del potere illimitato di riproduzione della loro "Madre" e sono incapaci di procreare, sebbene possano comunque creare copie effimere di se stessi per combattere in battaglia. 
 Questi tiefling non rimangono mai a lungo in città, svanendo poco dopo aver raggiunto l'età adulta.
 
-![Tiefling Maledetto](content/img/Tiefling.png)
+IMAGE.PNG
 
 *Aspetto.* I tiefling maledetti differiscono enormemente dai loro fratelli. Invece di un paio di corna, ne hanno a dozzine che sporgono dal cranio, simili a una crescita cancerosa. La loro forma mostruosa è ulteriormente accentuata dalle protuberanze simili a occhi che ricoprono le corna, sebbene non siano altro che germogli ossei in attesa di sbocciare. La loro pelle è spessa, ricoperta di pelliccia, e i loro arti muscolosi sono grossolanamente deformi; la metà umana della loro eredità è quasi scomparsa del tutto.
 
@@ -45,7 +45,7 @@ Questa maledizione è al tempo stesso tragica e orribile. Nati come gemelli siam
 
 Questa indicibile atrocità contro la vita deforma la loro carne e la loro anima, costringendoli a portare dentro di sé i resti dell'altra metà nel petto sotto forma di una fauce spalancata, un occhio o qualche altra caratteristica su cui non hanno alcun controllo.
 
-![Sangue Maledetto](content/img/CursedBlood.png)
+IMAGE.PNG
 
 *Aumento dei punteggi di caratteristica.* Il tuo punteggio di Destrezza aumenta di 1 e un punteggio di caratteristica a tua scelta aumenta di 1.
 
@@ -57,14 +57,17 @@ Questa indicibile atrocità contro la vita deforma la loro carne e la loro anima
 
 *Velocità.* La tua velocità base di movimento è di 25ft e hai una pari velocità di arrampicata, utilizzabile solo se non indossi un'armatura media o pesante.
 
-**Natura Vigile.** Il tuo istinto di sopravvivenza è più acutodella maggior parte delle persone. Non puoi essere colto di sorpresa. In un turno in cui saresti colto di sorpresa, non puoi attaccare o lanciare incantesimi che influenzano i nemici.
+**Natura Vigile.**
+Il tuo istinto di sopravvivenza è più acutodella maggior parte delle persone. Non puoi essere colto di sorpresa. In un turno in cui saresti colto di sorpresa, non puoi attaccare o lanciare incantesimi che influenzano i nemici.
 
-**Gemello Siamese.** Il tuo gemello defunto si manifesta sul tuo corpo in uno dei seguenti modi a tua scelta:
+**Gemello Siamese.** 
+Il tuo gemello defunto si manifesta sul tuo corpo in uno dei seguenti modi a tua scelta:
 - *Fauce nel petto.* La bocca sul tuo addome può divorare molte cose, immagazzinandole temporaneamente in una dimensione tascabile dentro di te. Può contenere fino a 113 kg di materiale, senza superare un volume di 1 metro cubo. Se perdi conoscenza o muori, rigurgiti innocuamente tutto il materiale contenuto nella tua bocca. Le creature che respirano all'interno della tua bocca possono sopravvivere fino a 1 minuto, dopodiché iniziano a soffocare. Dopo 24 ore all'interno del tuo corpo, un oggetto non magico viene distrutto e consumato dal tuo corpo. Se si tratta di un oggetto magico, una creatura o un cadavere, lo rigurgiti invece. A partire dal 5° livello, puoi immagazzinare materiali a tempo indeterminato, e il volume e il peso della dimensione raddoppiano.
 - *Occhio Vigile.* Finché l'occhio nel tuo petto è aperto, hai scurovisione fino a 120ft. Puoi lanciare Individuazione del Magico una volta mentre l'occhio è aperto, recuperando la capacità di farlo al termine di un riposo breve o lungo. A partire dal 5° livello, puoi lanciare Vedere l'Invisibilità una volta mentre l'occhio è aperto, recuperando la capacità di farlo al termine di un riposo lungo. Puoi aprire l'occhio come azione bonus e chiuderlo a volontà (senza bisogno di azione).
 - *Resti Effimeri.* Strappato dal tuo petto, a causa della tua volontà o forse di quella del tuo gemello, ora esiste solo dentro di te in spirito, capace di influenzare il mondo attraverso di te.Puoi parlare telepaticamente con qualsiasi creatura che puoi vedere, a condizione che la creatura si trovi entro un numero di metri da te pari a cinque volte il tuo livello. La voce che la creatura sente non è la tua, ma quella del tuo gemello. Il discorso telepatico viene pronunciato in una lingua che conosci e la creatura ti comprende solo se conosce quella lingua. A partire dal 5° livello, la creatura è in grado di risponderti telepaticamente in una lingua che conosce. Inoltre, impari il trucchetto mano magica. Puoi lanciarlo senza componenti somatiche o verbali e la mano ha l'aspetto di quella del tuo gemello. La tua caratteristica da incantatore per l'incantesimo è Carisma.
 
-**Sottorazza:** Sebbene tutti i sangue maledetti si considerino a vicenda come una famiglia, a seconda della loro origine (draconica, infernale o di altro tipo), i loro corpi si sono evoluti in vari modi. Scegline una:
+**Sottorazza**
+Sebbene tutti i sangue maledetti si considerino a vicenda come una famiglia, a seconda della loro origine (draconica, infernale o di altro tipo), i loro corpi si sono evoluti in vari modi. Scegline una:
 - *Sangue Maledetto Imbevuto*. Il sangue dei draghi scorre nelle tue vene. Il tuo corpo è più rettiliano, con scaglie dello stesso colore dei tuoi antenati draconici, artigli allungati e uno sguardo feroce dietro la maschera. 
 	- Il tuo punteggio di Forza o Saggezza aumenta di 1.
 	- Scegli due tipi di danno che riflettano i tuoi antenati draconici o demoniaci, tra acido, freddo, fuoco, fulmine e veleno. Ogni volta che subisci danni di uno di questi tipi, puoi ridurli di un importo pari al tuo bonus di competenza.
@@ -87,7 +90,7 @@ Sebbene la Chiesa Radiosa non prenda posizione sulla moralità di tali esseri, a
 
 Le gesta del giusto demidritch Aitzaz, uno dei primi Cacciatori e amico intimo di Steinhardt, sono ampiamente narrate da bardi e menestrelli in tutta la città. La sua morte per mano della famelica Piaga ha determinato un cambiamento nel trattamento dei demidritch da parte dei Luyarnhiani.
 
-![Demidritch](content/img/Demidritch.png)
+IMAGE.PNG
 
 *Aumento dei punteggi di caratteristica.* Il tuo punteggio di Carisma aumenta di 2.
 
@@ -123,7 +126,7 @@ Questi un tempo grandi mercanti commisero un peccato: bramare ciò che non appar
 
 La loro stessa natura fu irrevocabilmente alterata, proprio come quella di coloro che dimorano nelle profondità insondabili dell'oceano; rinunciarono alla loro mortalità, barattandola con il freddo abbraccio dell'eterna schiavitù. Essi non sarebbero mai periti, ma avrebbero vissuto i loro giorni al fianco di Colui che aveva camminato sulla terra molto prima dell'avvento dell'umanità e che avrebbe sopportato la loro fine per ere miserabili, per sempre legati come pedine nelle insidiose macchinazioni del loro infinito padrone. 
 
-![Nano Abissale](content/img/DeepDwarf.png)
+IMAGE.PNG
 
 *Aumento dei punteggi di caratteristica.* Il tuo punteggio di Costituzione aumenta di 2 e il tuo punteggio di Carisma aumenta di 1.
 
@@ -166,7 +169,7 @@ Incise sugli occhi  all'interno dei loro crani, ci sono le istruzioni a cui tutt
 
 Concepiti come oggetti animati capaci di eseguire le istruzioni, i manichini che esprimono pensieri di autoliberazione vengono spesso eliminati prima che questi pensieri si trasformino in azioni.
 
-![Manichino](content/img/Manikin.png)
+IMAGE.PNG
 
 *Aumento dei punteggi di caratteristica.* Il tuo punteggio di Costituzione aumenta di 2.
 
@@ -217,6 +220,8 @@ La loro maledizione ha preso tutti gli aspetti più contorti della loro personal
 
 Molti considerano questa rivelazione arcana come una maledizione, una maledizione che spinge a sprofondare sempre più negli abissi della depravazione finché non rimane altro che il mostro. Eppure, molti si rifiutano di lasciarsi spezzare: con la loro oscurità interiore ora visibile, non hanno altra scelta che accettarla. Si dice che accettare un difetto sia il primo passo per correggerlo. Coloro che sono nati sotto la piaga e che abbracciano il loro mostro interiore, ma si rifiutano di lasciarsi dominare, spesso diventano eroi messianici tra le mura di Luyarnha, tentando di redimere il mondo intero con le loro azioni e, forse un giorno, anche se stessi.
 
+IMAGE.PNG
+
 *Aumento dei punteggi di caratteristica.* Il tuo punteggio di Costituzione aumenta di 1.
 
 *Età.* Gli Scourgeborne non nascono, ma diventano tali. Ciò significa che maturano allo stesso ritmo della razza a cui originariamente
@@ -237,30 +242,18 @@ appartenevano.
 - Se il tuo allineamento è Malvagio, lasci che il mostro depravato dentro di te ti influenzi. Hai svantaggio ai tiri salvezza contro la follia, ma ottieni un bonus ai tiri salvezza su Destrezza pari al tuo bonus di competenza.
 
 **Sottorazze.** La tua sottorazza è determinata da una maledizione Eldritica, e sembra che qualsiasi aspetto della tua personalità sia più depravato influenzerà la bestia che emergerà. Scegli uno:
-
-![Aranea](content/img/Arenea.png)
-
 - *Aranea.* Chi trama e tesse una rete di bugie intorno a sé è, prevedibilmente, destinato a trasformarsi in un'aranea. Tra gli esseri della Piaga, le arane sono i meno affidabili, e il loro aspetto rivela la loro personalità manipolatrice, passata o presente. Sebbene la maggior parte dei cittadini comprenda la necessità della violenza, soprattutto a Luyarnha, nessuno tollera l'inganno e il tradimento.
 	- Il punteggio di Intelligenza aumenta di 1 e un punteggio a tua scelta aumenta di 1.
 	- Hai una velocità di scalata di 30ft. Inoltre, puoi scalare superfici difficili, inclusi i soffitti a testa in giù, senza dover effettuare una prova di abilità. Puoi farlo solo per un numero di minuti pari al tuo bonus di competenza e recuperi tutti i minuti spesi al termine di un riposo lungo.
 	- Come azione bonus, lanci una ragnatela appiccicosa contro una creatura entro 20ft da te; questa deve superare un tiro salvezza su Destrezza (CD = 8 + il tuo bonus di competenza + il tuo modificatore di Costituzione) o essere immobilizzata dalla ragnatela. Come azione, il bersaglio immobilizzato può effettuare una prova di Forza contro la CD, distruggendo la ragnatela e liberandosi in caso di successo. La ragnatela può anche essere attaccata e distrutta (CA 10; PF pari a 3 volte il tuo bonus di competenza; vulnerabilità ai danni da fuoco; immunità ai danni contundenti, velenosi e psichici). Una volta utilizzata questa capacità, non puoi usarla di nuovo fino a quando non completi un riposo lungo.
-
-![Belua](content/img/Belua.png)
-
 - *Belua.* Coloro che covano una rabbia repressa dentro di sé spesso si trasformano nelle bestie più feroci. I Belua, noti anche come mezzolupi, sono i più feroci tra tutti i Figli della Piaga che vagano per le strade di Luyarnha. Molti di loro scelgono di nascondere gli occhi, poiché la loro intensa sete di sangue tinge il loro sguardo di rosso cremisi, uno spettacolo terrificante per i non iniziati.
 	- Il tuo punteggio di Forza aumenta di 1 e un punteggio a tua scelta aumenta di 1.
 	- Hai vantaggio alle prove di Percezione basate sull'udito o sull'olfatto.
 	- Come azione bonus, puoi tentare di nutrirti di una creatura entro 5ft da te. Esegui un attacco senz'armi. In caso di successo, recuperi punti ferita pari al danno inflitto. Puoi usare questa capacità un numero di volte pari al tuo bonus di competenza e recuperi tutti gli utilizzi spesi al termine di un riposo lungo.
-
-![Cervus](content/img/Cervus.png)
-
 - *Cervus.* La più rara tra le creature della Piaga. Per diventare un cervus, chiamato anche mezzo cervo o waldschrat, bisognava aver commesso il più abietto dei peccati: divorare la carne dei propri simili. O almeno così si diceva. Questa leggenda metropolitana è stata smentita da tempo, poiché molte delle figure più fidate della città si sono trasformate in tali creature. È interessante notare che coloro che diventano cervus sembrano essere i più abili nel combattere le creature della notte, un'abilità che si guadagna il rispetto dei cacciatori di tutta la città-stato.
 	- Il tuo punteggio di Saggezza o il tuo punteggio di Forza aumentano di 1, e un punteggio di a tua scelta aumenta di 1.
 	- La tua velocità di movimento aumenta di 10ft.
 	- Se ti muovi di almeno 20ft in linea retta verso una creatura e poi la colpisci con un attacco in mischia nello stesso turno, quel bersaglio deve superare un tiro salvezza su Forza (CD 8 + il tuo bonus di competenza + il tuo modificatore di Forza) o essere atterrato. Se il bersaglio è atterrato, puoi effettuare un attacco in mischia contro di esso come azione bonus. Puoi usare questa capacità un numero di volte pari al tuo bonus di competenza e recuperi tutti gli utilizzi spesi al termine di un riposo lungo.
-
-![Vespertilio](content/img/Vespertilio.png)
-
 - *Vespertilio.* Coloro che si sono nascosti per paura di fronte alle avversità sono maledetti a diventare queste bestie della notte. I Vespertilio - anche noti come mezzi pipistrelli - rappresentano alcune delle creature più maledette tra i portati dalla Piaga. La loro riluttanza a vedere i propri problemi ha assunto una forma letterale, poiché gran parte della loro vista è stata loro rubata. Invece, hanno ricevuto ali mezze spezzate in una crudele farsa del destino, come per fuggire dai loro problemi.
 	- Il tuo punteggio di Destrezza aumenta di 1 e un punteggio a tua scelta aumenta di 1.
 	- Hai vista cieca fino a 30ft e hai svantaggio su qualsiasi prova di caratteristica o tiro per colpire che richieda la vista oltre questo raggio.
