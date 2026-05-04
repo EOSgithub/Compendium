@@ -136,7 +136,7 @@ function renderMarkdown(md, section) {
     return chunks.map(renderEntry).join('');
   }
 
-  return `<div class="rendered-content">${replaceImagePlaceholders(marked.parse(stripped))}</div>`;
+  return `<div class="rendered-content">${wrapTables(replaceImagePlaceholders(marked.parse(stripped)))}</div>`;
 }
 
 function renderEntry(chunk) {
@@ -154,6 +154,7 @@ function renderEntry(chunk) {
 
   let html = marked.parse(body);
   html = replaceImagePlaceholders(html);
+  html = wrapTables(html);
 
   return `
     <details class="race-card">
@@ -168,6 +169,32 @@ function renderEntry(chunk) {
       <div class="race-body">${html}</div>
     </details>
   `;
+}
+
+/**
+ * Wrap every <table> in a scrollable container so wide tables can be
+ * scrolled horizontally on small screens without breaking the layout.
+ * Also tags the first cell of the header (e.g. "D8", "D6") so we can
+ * style it as a dice-die label.
+ */
+function wrapTables(html) {
+  return html.replace(
+    /<table>([\s\S]*?)<\/table>/g,
+    (match, inner) => {
+      // Try to detect a "dice column" header (D4, D6, D8, D10, D12, D20, D100, 1d6, ecc.)
+      const tagged = inner.replace(
+        /<thead>([\s\S]*?)<\/thead>/,
+        (m, thead) => {
+          const newThead = thead.replace(
+            /<th([^>]*)>\s*(\d*[dD]\d+)\s*<\/th>/,
+            '<th$1 class="dice-col">$2</th>'
+          );
+          return `<thead>${newThead}</thead>`;
+        }
+      );
+      return `<div class="table-wrap"><table class="lore-table">${tagged}</table></div>`;
+    }
+  );
 }
 
 /**

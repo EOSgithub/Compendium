@@ -741,6 +741,125 @@ body::before {
 }
 
 /* ============================================================
+   TABLES  (dadi della personalità, ideali, legami, difetti)
+   ============================================================ */
+
+/* Wrapper: permette lo scroll orizzontale su schermi stretti
+   senza rompere la struttura della tabella. */
+.table-wrap {
+  width: 100%;
+  margin: 18px 0 22px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--gold-dim);
+  border-radius: 6px;
+  background:
+    linear-gradient(180deg,
+      rgba(38, 29, 21, 0.85) 0%,
+      rgba(21, 17, 13, 0.9)  100%);
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(201, 169, 97, 0.08);
+  position: relative;
+}
+
+/* Sottile filigrana dorata in cima */
+.table-wrap::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 8%; right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.lore-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: var(--ivory);
+  background: transparent;
+}
+
+/* Header row */
+.lore-table thead th {
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-bright);
+  background:
+    linear-gradient(180deg,
+      rgba(139, 26, 26, 0.18) 0%,
+      rgba(38, 29, 21, 0.55)  100%);
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--gold-dim);
+  text-shadow: 0 1px 6px rgba(201, 169, 97, 0.18);
+  white-space: nowrap;
+}
+
+/* Cella intestazione del dado (D6, D8, D20, ...) */
+.lore-table thead th.dice-col,
+.lore-table thead th:first-child {
+  text-align: center;
+  color: var(--crimson-bright);
+  text-shadow: 0 1px 8px rgba(178, 34, 34, 0.3);
+  width: 64px;
+  min-width: 56px;
+}
+
+/* Body cells */
+.lore-table tbody td {
+  padding: 10px 14px;
+  vertical-align: top;
+  border-bottom: 1px dashed rgba(201, 169, 97, 0.18);
+  line-height: 1.55;
+  color: var(--ivory);
+}
+
+/* Prima colonna (numero del dado) */
+.lore-table tbody td:first-child {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--gold-bright);
+  width: 64px;
+  min-width: 56px;
+  background: rgba(201, 169, 97, 0.04);
+}
+
+/* Striping leggero sulle righe pari */
+.lore-table tbody tr:nth-child(even) td {
+  background: rgba(201, 169, 97, 0.035);
+}
+.lore-table tbody tr:nth-child(even) td:first-child {
+  background: rgba(201, 169, 97, 0.07);
+}
+
+/* Hover (utile su desktop) */
+.lore-table tbody tr:hover td {
+  background: rgba(178, 34, 34, 0.08);
+}
+.lore-table tbody tr:hover td:first-child {
+  color: var(--ivory);
+  background: rgba(178, 34, 34, 0.14);
+}
+
+/* Ultima riga senza bordo inferiore */
+.lore-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Le tabelle dentro le card devono respirare meno ai bordi */
+.race-body .table-wrap { margin-left: -4px; margin-right: -4px; }
+
+/* ============================================================
    EMPTY / LOADING / ERROR STATES
    ============================================================ */
 
@@ -817,6 +936,16 @@ body::before {
   .menu-sub { font-size: 0.88rem; }
   .race-card summary { padding: 16px 18px; font-size: 1.08rem; }
   .race-body { padding: 4px 18px 20px; }
+
+  .lore-table { font-size: 0.95rem; }
+  .lore-table thead th { padding: 10px 10px; font-size: 0.72rem; letter-spacing: 0.14em; }
+  .lore-table tbody td { padding: 9px 10px; }
+  .lore-table thead th.dice-col,
+  .lore-table thead th:first-child,
+  .lore-table tbody td:first-child {
+    width: 48px;
+    min-width: 44px;
+  }
 }
 
 @media (min-width: 720px) {
