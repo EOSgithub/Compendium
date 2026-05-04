@@ -159,7 +159,7 @@ function renderEntry(chunk, sectionKey) {
   // Sezioni in cui ogni abilità (paragrafo che apre con <strong>) deve
   // raggruppare titolo + tutti i paragrafi/liste collegati in un unico
   // riquadro .ability-block (invece che boxare solo il primo paragrafo).
-  const GROUPED_SECTIONS = ['sottoclassi', 'razze'];
+  const GROUPED_SECTIONS = ['sottoclassi', 'razze', 'regole'];
   const isGrouped = GROUPED_SECTIONS.includes(sectionKey);
   if (isGrouped) {
     html = groupAbilities(html);
