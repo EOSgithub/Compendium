@@ -145,10 +145,11 @@ Quando lanci l'incantesimo in questo modo, l'apocalisse scorre attraverso di te;
 ---
 
 **Eldritch Melodies**
+Per prerequisiti si intente il livello in questa classe.
+
 *Ballata della Città Senza Nome* 
 Prerequisito: 3° livello
 Incanali il nome della città perduta dei Grandi Antichi, distorcendo la realtà. Ogni creatura entro 30ft da te deve superare un tiro salvezza su Forza o essere spinta fino a 10ft in una direzione a tua scelta e messa a terra prona.
-
 La distanza a cui una creatura viene spinta aumenta a 20ft al 6° livello e a 30ft al 14° livello.
 
 *Concordia degli Abissi*
@@ -159,7 +160,6 @@ A partire dal 6° livello, puoi bersagliare due creature e, al 14° livello, puo
 *Epodo Per Chi Suona la Campana*
 Prerequisito: 3° livello
 Suoni le campane della morte, rafforzando i tuoi alleati. Scegli fino a cinque creature entro 30ft da te. Ogni creatura ottiene un bonus ai tiri per colpire e ai danni pari alla metà del tuo modificatore di Carisma (arrotondato per eccesso) per 2 round, fino alla fine del tuo turno successivo.
-
 A partire dal 6° livello, il bonus ai tiri per i danni è pari al tuo modificatore di Carisma e, al 14° livello, il bonus sia ai tiri per colpire che ai danni è pari al tuo modificatore di Carisma.
 
 *Trascendenza della Carne*
@@ -170,25 +170,21 @@ Intoni un canto di gloria in nome della corruzione, evocando tentacoli contorti 
 Prerequisito: 6° livello
 Intoni una melodia inquietante che evoca la presenza degli orrori in agguato oltre il velo. Scegli una creatura entro 30ft da te. Essa viene parzialmente assorbita dal cosmo per 1 ora, ottenendo un bonus di +10 alle prove di Furtività e diventando impossibile da rintracciare tranne che con mezzi magici. 
 Inoltre, come azione, la creatura può diventare incorporea e muoversi attraverso altre creature e oggetti come se fossero terreno difficile fino alla fine del suo turno. Se termina il suo turno all'interno di un oggetto, subisce 5 (1d10) danni da forza e viene immediatamente spostata nello spazio libero più vicino. Una volta che la creatura usa questa azione, non può farlo di nuovo per tutta la durata della trasformazione.
-
 A partire dal 14° livello, quando la creatura usa un'azione per diventare incorporea, l'effetto dura invece 10 minuti.
 
 *Ode alla Sottomissione*
 Prerequisito: 6° livello
 Invochi il potere di un Grande Antico divoratore, evocando un'orda di tentacoli contorti per intrappolare i tuoi nemici. Ogni creatura a tua scelta che puoi vedere entro 30ft da te deve effettuare un tiro salvezza su Destrezza, rimanendo immobilizzata per 1 minuto in caso di fallimento. Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno, ponendo fine all'effetto su di sé in caso di successo.
-
 A partire dal 14° livello, una creatura immobilizzata subisce 3d6 danni necrotici all'inizio di ogni suo turno.
 
 *Requiem del Caos*
 Prerequisito: 6° livello
 Assumi le sembianze del Caos Strisciante, sussurrando la fine dei tuoi nemici. Scegli fino a due creature entro 60ft da te. Hanno svantaggio alle prove di Saggezza e ai tiri salvezza su Saggezza fino alla fine del tuo prossimo turno.
-
 A partire dal 14° livello, puoi bersagliare un numero di creature pari al tuo modificatore di Carisma (minimo 3).
 
 *Canto della Nascita Abietta*
 Prerequisito: 6° livello
 Invochi il potere del caos primordiale, scagliando un'orda di feti contorti. Ogni creatura in un cono di 30ft che si origina da te deve effettuare un tiro salvezza su Destrezza, subendo un numero di d4 di danni necrotici pari al tuo livello in questa classe in caso di fallimento, o la metà di tali danni in caso di successo.
-
 A partire dal 14° livello, la dimensione del cono aumenta a 60ft metri.
 
 *Assonanza dei Sogni*
