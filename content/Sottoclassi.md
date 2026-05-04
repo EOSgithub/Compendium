@@ -144,7 +144,7 @@ Quando lanci l'incantesimo in questo modo, l'apocalisse scorre attraverso di te;
 
 ---
 
-**Eldritch Melodies**
+**Cori Eldritici**
 Per prerequisiti si intente il livello in questa classe.
 
 *Ballata della Città Senza Nome* 
