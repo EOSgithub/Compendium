@@ -26,20 +26,20 @@ L'intelletto (INT) di una creatura può aiutarla a comprendere conoscenze proibi
 
 ---
 ## Riposi Modificati
-**Short Rest Adjustments** 
+**Short Rest Adjustments**
 I riposi brevi possono essere completati in 10 minuti, ma solo i primi 2 riposi brevi dopo un riposo lungo ricaricano le capacità. Ulteriori riposi brevi prima di un riposo lungo consentono solo di effettuare tiri di dado per il recupero dei punti ferita.
 
-**Long Rest Adjustments** 
+**Long Rest Adjustments**
 I personaggi possono ottenere tutti i benefici di un lungo riposo solo in aree sicure designate (ad esempio, la Grande Cattedrale o una locanda pesantemente sorvegliata). 
 
 La ragione è semplice: si dorme molto meglio sapendo di non rischiare di essere attaccati o uccisi nel sonno. L'angoscia mentale renderebbe il sonno meno riposante. 
 
 Un'area sicura è qualsiasi luogo in cui il gruppo può rilassarsi senza timore di essere attaccato. Come GM, un modo semplice per determinare se un luogo può essere considerato un'area sicura è chiedersi: "Il gruppo dovrebbe fare la guardia per la notte?". Se la risposta è no, allora si può considerare un'area sicura.
 
-**Rest Distruption** 
+**Rest Distruption**
 Se un riposo lungo viene interrotto, sia esso a causa di un combattimento, un'imboscata, una riunione d'emergenza o altro, i giocatori ottengono solo i benefici di un riposo lungo parziale (vedi sotto). Se non tornano a completare il riposo lungo immediatamente dopo l'interruzione, ottengono solo i benefici di un riposo breve.
 
-**Partial Long Rest** 
+**Partial Long Rest**
 Riposare al di fuori delle zone sicure offre un recupero limitato. Al termine di un riposo lungo parziale, i personaggi:
 - Recuperano un terzo dei Dadi Vita spesi. 
 - Recuperano l'uso delle abilità che si ricaricano con i riposi brevi. Tuttavia, le abilità specifiche del riposo lungo rimangono esaurite.
