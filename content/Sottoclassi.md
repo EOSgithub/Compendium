@@ -1,9 +1,9 @@
 ## Barbarian: Path of the Earthbreaker
 In un tempo ormai lontano, il potere di controllare la gravità fu rubato e diffuso nei desolati bassifondi di Luyarnha, proprio come il mitico furto del fuoco dai cieli. Tra le fila dei Reietti, molti hanno abbracciato la magia spaziale come strumento di distruzione di massa, scatenandola su bestie e mortali con una spietatezza tipica di chi non ha nulla da perdere. 
 
-> “Nobles have their honor, Hunters have their courage, Priests have their faith, But all we have, is rage.”
-
 Che sia per talento innato, addestramento intenso o rituali maledetti, tutti gli Spaccaterra condividono lo stesso cammino di distruzione, schiacciando i loro nemici e riducendoli in polvere. Gli Earthbreaker prosperano nel cuore del campo di battaglia, dove distruggono i loro nemici, trascinano la loro faccia sul selciato e non lasciano dietro di sé altro che cadaveri. Il potere di rimodellare il mondo, di piegarlo e spezzarlo a piacimento, è un potere che molti desiderano, eppure pochi lo padroneggiano come gli Earthbreaker.
+
+![Illustration](/content/Earthbreaker.png)
 
 ---
 
@@ -19,7 +19,7 @@ Il tuo immenso potere mette a dura prova la maggior parte delle armi, frantumand
 Inoltre, la gittata delle armi da lancio è raddoppiata per te. Se colpisci con un attacco a distanza con un'arma da lancio, puoi usare il dado del tuo attacco senz'armi.
 
 **Furia Gravitazionale**
-Al 3° livello, una volta per turno, quando infliggi danni a una creatura con un attacco senz'armi, puoi scegliere uno dei seguenti effetti. 
+Al 3° livello, una volta per turno, quando infliggi danni a una creatura con un attacco senz'armi, puoi scegliere uno dei seguenti effetti (Earthbreaker save DC = 8 + bonus Proficenza + modificatore Forza). 
 - *Mani Seppelenti.* Il bersaglio deve superare un tiro salvezza su Forza o la sua velocità viene ridotta a 0 fino all'inizio del tuo prossimo turno, mentre lo seppellisci parzialmente nel terreno. Se il bersaglio fallisce il tiro salvezza di 5 o più, viene anche atterrato.
 - *Pugno Sfondante.* Spingi il bersaglio di 10ft lontano da te o verso l'alto. Se spinto contro un ostacolo o un'altra creatura, il bersaglio subisce danni contundenti pari al tuo modificatore di Forza. (Le creature con un punteggio di Forza pari o superiore al tuo possono effettuare un tiro salvezza su Forza per resistere a questo effetto. Se spingi il bersaglio verso l'alto, può effettuare un tiro salvezza su Destrezza con CD 10 evitando qualsiasi danno da caduta in caso di successo.)
 
@@ -52,6 +52,50 @@ Se colpisci, il bersaglio subisce 3d12 danni contundenti aggiuntivi e viene spin
 Puoi usare questa capacità un numero di volte pari al tuo modificatore di Forza e recuperi tutti gli utilizzi spesi al termine di un riposo breve o lungo.
 
 ---
----
+## Barbarian: Path of the Lightning Vessel
+Un Cuore Galvanico è una bestia, un mostro da battaglia. I loro corpi traboccano di fulmini e arrivano inaspettatamente, spesso piombando dagli edifici o saltando a distanze impossibili, prima di schiantarsi nel mezzo della battaglia. La presenza di un singolo Cuore Galvanico è spesso sufficiente a ribaltare le sorti di una battaglia. 
+
+Gli Scions hanno creato i Cuori Galvanici utilizzando barre galvanizzate impiantate nella colonna vertebrale di neonati, prima di sottoporli a una violenta terapia d'urto. Di quei bambini, alcuni svilupparono la capacità di imbrigliare i fulmini, mentre molti altri rimasero invalidi a vita: un piccolo prezzo da pagare per la salvezza della città. Questa stessa tecnologia fu poi utilizzata per creare i Predatori Galvanizzati, nemici mortali dei Cuori Galvanici, poiché gli Scions iniziarono a temere la propria creazione.
+
+![Illustration](/content/Galvanic.png)
+
 ---
 
+**Cuore Galvanico**
+Il fulmine è parte di te. Scorre nelle tue vene e attende di essere liberato. 
+Al 3° livello, ottieni resistenza ai danni da fulmine. Se possiedi già questa resistenza, invece, se subisci danni da fulmine, puoi ridurli di 1d6 (dopo l'applicazione della resistenza).
+
+Inoltre, mentre sei in preda alla furia, puoi scatenare il fulmine dentro di te. Per tutta la durata della tua furia, puoi usare la tua
+azione bonus per scatenare vari poteri (Galvanic save DC = 8 + bonus Proficenza + modificatore Costituzione):
+- *Catene Elettrificate.* Puoi usare la tua azione bonus per creare catene di fulmini che si avvolgono attorno alla tua arma. La prossima volta che colpisci una creatura in questo turno, essa subisce danni da fulmine aggiuntivi pari al doppio del tuo modificatore di Costituzione e rimane intrappolata dalle catene, che si ancorano al pavimento, fino all'inizio del tuo prossimo turno. Ogni volta che tenta di muoversi per più di 10ft mentre è intrappolata, deve effettuare una prova di Atletica contrapposta alla tua prova di Atletica, liberandosi in caso di successo. In caso di fallimento, subisce nuovamente i danni da fulmine e la sua velocità viene ridotta a 0 fino all'inizio del tuo prossimo turno.
+- *Colpo Fulgurante.* Quando colpisci una creatura con un attacco con arma da mischia, puoi lasciare l'arma conficcata nel suo petto per un breve istante e usare immediatamente un'azione bonus per richiamare un fulmine dal cielo per colpirla, usando l'arma come conduttore, prima di estrarla. Il bersaglio subisce danni da fulmine pari al doppio del tuo modificatore di Costituzione e tutte le creature entro un raggio di 5ft devono superare un tiro salvezza su Destrezza  o subire anch'esse quel danno. Hai vantaggio su questo tiro salvezza.
+- *Passo Fulmineo.* Come azione bonus, puoi muoverti fino a metà della tua velocità. Durante questo scatto, il tuo corpo si carica di energia; se termini questo movimento entro 5ft metri da una creatura, questa subisce danni da fulmine pari al doppio del tuo modificatore di Costituzione. Se ci sono più creature, scegline una che subisce il danno.
+
+---
+
+**Schianto Ruggente**
+Al 6° livello, sei pronto a lanciarti in battaglia in un istante, piombando sui tuoi nemici come un tuono dal cielo. 
+Come parte della tua furia, puoi saltare in aria, prima di schiantarti su un punto a terra che puoi vedere entro 30ft da te e che non sia occupato da una creatura Enorme o più grande.
+Tutte le creature in un raggio di 10ft centrato su quel punto devono superare un tiro salvezza su Destrezza o subire un numero di d8 danni da fulmine pari al tuo modificatore di Costituzione, o la metà dei danni in caso di successo.
+Se una creatura si trova nello spazio in cui atterri, subisce svantaggio al tiro salvezza e viene spinta di 5ft in uno spazio libero a sua scelta. Se non c'è nessuno spazio libero entro il raggio d'azione, la creatura cade invece prona.
+
+Al 10° livello, la distanza che puoi saltare aumenta a 60ft e puoi atterrare in spazi occupati da creature Enormi. 
+Al 14° livello, la distanza aumenta a 90ft e puoi atterrare in spazi occupati da creature Gargantuesche.
+
+---
+
+**Riflessi Fulminei**
+Al 10° livello, il fulmine che impugni potenzia i tuoi riflessi oltre i limiti che il tuo corpo potrebbe normalmente gestire.
+Di conseguenza, ogni volta che effettui una prova di Destrezza, ottieni un bonus alla prova pari al tuo modificatore di Costituzione.
+
+Inoltre, mentre sei in preda alla furia, puoi usare Passo Fulmineo una volta per turno senza consumare un'azione bonus.
+
+---
+
+**Bestia Elettrica**
+A partire dal 14° livello, diventi tutt'uno con il fulmine che scorre in te. Il danno inflitto dalle abilità del tuo Cuore Galvanico aumenta fino a tre volte il tuo modificatore di Costituzione e migliora nel modo seguente:
+- *Catene Elettrificate.* La creatura non può muoversi per più di 5ft senza tentare la prova e, in caso di fallimento, non può effettuare reazioni fino all'inizio del tuo prossimo turno.
+- *Colpo Fulgurante.* Il raggio del fulmine aumenta a 10ft e puoi scegliere un numero di creature pari al tuo modificatore di Costituzione che superano automaticamente il tiro salvezza.
+- *Passo Fulmineo.* Ora puoi muoverti fino alla tua velocità massima e puoi scegliere di fonderti con il fulmine, teletrasportando la distanza percorsa.
+
+---
