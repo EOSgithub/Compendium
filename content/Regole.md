@@ -1,19 +1,19 @@
 ## Follia
-La follia può essere a *breve termine*, a *lungo termine* o *permanente*.
+La follia può essere a breve termine, a lungo termine o permanente.
 
 Effetti più comuni infliggono una follia a breve termine, che dura solo pochi minuti. 
 Effetti più orribili o cumulativi possono causare una follia a lungo termine o permanente.
 
-L'intelletto (*INT*) di una creatura può aiutarla a comprendere conoscenze proibite senza impazzire, aggiungendo il loro modificatoreai tiri salvezza che effettuano contro la follia.
+L'intelletto (INT) di una creatura può aiutarla a comprendere conoscenze proibite senza impazzire, aggiungendo il loro modificatoreai tiri salvezza che effettuano contro la follia.
 
-**Inoltre:**
-- Quando una creatura viene colpita da una qualsiasi follia, la creatura è *stordita* fino all'inizio del suo prossimo turno, dopodiché la follia ha effetto.
-- Un personaggio affetto da *follia a breve termine* è soggetto a un effetto della tabella "Follia a Breve Termine" per *1d4* minuti.
-- Un personaggio affetto da *follia a lungo termine* è soggetto a un effetto dalla tabella "Follia a Lungo Termine" per *1d4* × Lune Eldritiche.
-- Un personaggio affetto da *follia permanente* acquisisce un nuovo tratto dalla tabella "Follia a Tempo Indeterminato".
-- Ogni volta che un personaggio accumula 5 forme di *follia a breve termine* in meno di 48 ore, acquisisce una forma di *follia a lungo termine*. Se un personaggio acquisisce 3 forme di *follia a lungo* termine in meno di 30 giorni, acquisisce una forma di *follia permanente*.
+**Inoltre**
+- Quando una creatura viene colpita da una qualsiasi follia, la creatura è stordita fino all'inizio del suo prossimo turno, dopodiché la follia ha effetto.
+- Un personaggio affetto da follia a breve termine è soggetto a un effetto della tabella "Follia a Breve Termine" per 1d4 minuti.
+- Un personaggio affetto da follia a lungo termine è soggetto a un effetto dalla tabella "Follia a Lungo Termine" per 1d4 × settimane.
+- Un personaggio affetto da follia permanente acquisisce un nuovo tratto dalla tabella "Follia a Tempo Indeterminato".
+- Ogni volta che un personaggio accumula 5 forme di follia a breve termine in meno di 48 ore, acquisisce una forma di follia a lungo termine. Se un personaggio acquisisce 3 forme di follia a lungo termine in meno di 30 giorni, acquisisce una forma di follia permanente.
 
-**Alcuni Esempi:**
+**Alcuni Esempi**
 - Vedere un alleato ridotto a 0 punti ferita a causa di una mostruosità o aberrazione
 - Primo incontro con un tipo sconosciuto di aberrazione di CR pari o superiore a 8
 - Sintonizzazione con oggetti maledetti.
@@ -26,17 +26,21 @@ L'intelletto (*INT*) di una creatura può aiutarla a comprendere conoscenze proi
 
 ---
 ## Riposi Modificati
-**Short Rest Adjustments:** I riposi brevi possono essere completati in 10 minuti, ma solo i primi 2 riposi brevi dopo un riposo lungo ricaricano le capacità. Ulteriori riposi brevi prima di un riposo lungo consentono solo di effettuare tiri di dado per il recupero dei punti ferita.
+**Short Rest Adjustments** 
+I riposi brevi possono essere completati in 10 minuti, ma solo i primi 2 riposi brevi dopo un riposo lungo ricaricano le capacità. Ulteriori riposi brevi prima di un riposo lungo consentono solo di effettuare tiri di dado per il recupero dei punti ferita.
 
-**Long Rest Adjustments:** I personaggi possono ottenere tutti i benefici di un lungo riposo solo in aree sicure designate (ad esempio, la Grande Cattedrale o una locanda pesantemente sorvegliata). 
+**Long Rest Adjustments** 
+I personaggi possono ottenere tutti i benefici di un lungo riposo solo in aree sicure designate (ad esempio, la Grande Cattedrale o una locanda pesantemente sorvegliata). 
 
 La ragione è semplice: si dorme molto meglio sapendo di non rischiare di essere attaccati o uccisi nel sonno. L'angoscia mentale renderebbe il sonno meno riposante. 
 
 Un'area sicura è qualsiasi luogo in cui il gruppo può rilassarsi senza timore di essere attaccato. Come GM, un modo semplice per determinare se un luogo può essere considerato un'area sicura è chiedersi: "Il gruppo dovrebbe fare la guardia per la notte?". Se la risposta è no, allora si può considerare un'area sicura.
 
-**Rest Distruption:** Se un riposo lungo viene interrotto, sia esso a causa di un combattimento, un'imboscata, una riunione d'emergenza o altro, i giocatori ottengono solo i benefici di un riposo lungo parziale (vedi sotto). Se non tornano a completare il riposo lungo immediatamente dopo l'interruzione, ottengono solo i benefici di un riposo breve.
+**Rest Distruption** 
+Se un riposo lungo viene interrotto, sia esso a causa di un combattimento, un'imboscata, una riunione d'emergenza o altro, i giocatori ottengono solo i benefici di un riposo lungo parziale (vedi sotto). Se non tornano a completare il riposo lungo immediatamente dopo l'interruzione, ottengono solo i benefici di un riposo breve.
 
-**Partial Long Rest:** Riposare al di fuori delle zone sicure offre un recupero limitato. Al termine di un riposo lungo parziale, i personaggi:
+**Partial Long Rest** 
+Riposare al di fuori delle zone sicure offre un recupero limitato. Al termine di un riposo lungo parziale, i personaggi:
 - Recuperano un terzo dei Dadi Vita spesi. 
 - Recuperano l'uso delle abilità che si ricaricano con i riposi brevi. Tuttavia, le abilità specifiche del riposo lungo rimangono esaurite.
 - Non perdono livelli di affaticamento, ma non ne acquisiscono alcuno a causa del mancato riposo lungo.
@@ -56,6 +60,7 @@ La CD del tiro salvezza viene calcolata come segue: 8 + bonus di competenza + mo
 | Marziale  | Cannon      | 500 gp | 3d10 perforanti | 90 lb | Artillery (120/240), Booming, Concussive, Two-Handed                            |
 | Marziale  | Rifle       |  25 gp | 1d10 perforanti |  8 lb | Ammunition (120/240), Barrel 2 (S), Blaring, Steady, Twinned Barrel, Two-Handed |
 | Marziale  | Pistol      |  10 gp | 1d6 perforanti  |  3 lb | Ammunition (40/120), Barrel 6 (S), Blaring, Fan Fire                            |
+
 **Proprietà Armi**
 - *Artillery.* Devi usare Forza invece di Destrezza per la CD del tiro salvezza dell'arma da fuoco e per i tiri per colpire e per i danni di quest'arma. Un'arma del genere può sparare una sola volta prima di dover essere ricaricata con un'azione.
 
@@ -86,6 +91,7 @@ La CD del tiro salvezza viene calcolata come segue: 8 + bonus di competenza + mo
 | Explosive bullets (10) | 40 gp |  1 lb |
 | Cannonball             |  3 gp |  9 lb |
 | Explosive cannonball   | 30 gp | 12 lb |
+
 **Proprietà Munizioni**
 - *Bullets*. Il proiettile di piombo è la munizione standard per ogni arma da fuoco, salvo diversa indicazione. I proiettili di piombo di Luyarnha sono legati con argento; sono considerati argentati, ma solo ai fini del superamento di resistenze e immunità.
 
