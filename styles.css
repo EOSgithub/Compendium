@@ -627,11 +627,14 @@ body::before {
 }
 
 /* ============================================================
-   SOTTOCLASSI — abilità raggruppate (.ability-block)
-   Solo dentro .subclass-card: ogni abilità diventa un singolo
-   riquadro che racchiude titolo + tutti i paragrafi/liste collegati.
+   ABILITÀ RAGGRUPPATE (.ability-block)
+   Attivo per le card che hanno la classe .grouped-card (Sottoclassi
+   e Razze): ogni abilità diventa un singolo riquadro che racchiude
+   titolo + tutti i paragrafi/liste collegati, invece di boxare solo
+   il primo paragrafo.
    ============================================================ */
 
+.grouped-card .race-body .ability-block,
 .subclass-card .race-body .ability-block {
   background:
     linear-gradient(135deg,
@@ -646,6 +649,7 @@ body::before {
 
 /* Il paragrafo interno con <strong> NON deve avere il box individuale,
    altrimenti otteniamo riquadri annidati. Sovrascriviamo il default. */
+.grouped-card .race-body .ability-block p:has(> strong:first-child),
 .subclass-card .race-body .ability-block p:has(> strong:first-child) {
   background: none;
   border-left: none;
@@ -656,18 +660,25 @@ body::before {
 }
 
 /* Spaziatura interna pulita per i paragrafi e le liste raggruppate */
+.grouped-card .race-body .ability-block p,
 .subclass-card .race-body .ability-block p {
   margin: 8px 0;
   color: var(--ivory);
 }
+.grouped-card .race-body .ability-block p:first-child,
 .subclass-card .race-body .ability-block p:first-child {
   margin-top: 0;
 }
+.grouped-card .race-body .ability-block p:last-child,
+.grouped-card .race-body .ability-block ul:last-child,
+.grouped-card .race-body .ability-block ol:last-child,
 .subclass-card .race-body .ability-block p:last-child,
 .subclass-card .race-body .ability-block ul:last-child,
 .subclass-card .race-body .ability-block ol:last-child {
   margin-bottom: 0;
 }
+.grouped-card .race-body .ability-block ul,
+.grouped-card .race-body .ability-block ol,
 .subclass-card .race-body .ability-block ul,
 .subclass-card .race-body .ability-block ol {
   margin: 8px 0 8px;
@@ -676,6 +687,7 @@ body::before {
 /* Fallback per browser che non supportano :has() — almeno togliamo
    bordo/sfondo sul paragrafo interno usando una regola più generica. */
 @supports not (selector(:has(*))) {
+  .grouped-card .race-body .ability-block > p:first-child,
   .subclass-card .race-body .ability-block > p:first-child {
     background: none;
     border-left: none;

@@ -156,16 +156,16 @@ function renderEntry(chunk, sectionKey) {
   html = replaceImagePlaceholders(html);
   html = wrapTables(html);
 
-  // Solo per la sezione "Sottoclassi": raggruppa ogni abilità (titolo
-  // bold + tutti i paragrafi/liste successivi fino alla prossima
-  // abilità) in un unico contenitore .ability-block, così il riquadro
-  // rosso visualizza l'intera unità invece che il solo paragrafo iniziale.
-  const isSubclass = sectionKey === 'sottoclassi';
-  if (isSubclass) {
+  // Sezioni in cui ogni abilità (paragrafo che apre con <strong>) deve
+  // raggruppare titolo + tutti i paragrafi/liste collegati in un unico
+  // riquadro .ability-block (invece che boxare solo il primo paragrafo).
+  const GROUPED_SECTIONS = ['sottoclassi', 'razze'];
+  const isGrouped = GROUPED_SECTIONS.includes(sectionKey);
+  if (isGrouped) {
     html = groupAbilities(html);
   }
 
-  const cardClass = isSubclass ? 'race-card subclass-card' : 'race-card';
+  const cardClass = isGrouped ? 'race-card grouped-card' : 'race-card';
 
   return `
     <details class="${cardClass}">
