@@ -72,7 +72,7 @@ function showSection(key) {
   const contentEl = $('#section-content');
   contentEl.innerHTML = '<div class="loading">Apertura del tomo&hellip;</div>';
 
-  loadContent(section)
+  loadContent(section, key)
     .then(html => {
       contentEl.innerHTML = html;
       // Re-trigger animation
@@ -90,9 +90,9 @@ function showSection(key) {
 /* -----------------------------------------------------------
    CONTENT LOADING
    ----------------------------------------------------------- */
-async function loadContent(section) {
+async function loadContent(section, sectionKey) {
   if (cache[section.file] !== undefined) {
-    return renderMarkdown(cache[section.file], section);
+    return renderMarkdown(cache[section.file], section, sectionKey);
   }
 
   try {
@@ -108,7 +108,7 @@ async function loadContent(section) {
     const stripped = text.replace(/<!--[\s\S]*?-->/g, '').trim();
     if (stripped === '') return renderEmpty();
 
-    return renderMarkdown(text, section);
+    return renderMarkdown(text, section, sectionKey);
   } catch (err) {
     console.warn('[EldritchHunt] Could not load', section.file, err);
     cache[section.file] = '';
@@ -119,7 +119,7 @@ async function loadContent(section) {
 /* -----------------------------------------------------------
    RENDERING
    ----------------------------------------------------------- */
-function renderMarkdown(md, section) {
+function renderMarkdown(md, section, sectionKey) {
   const stripped = md.replace(/<!--[\s\S]*?-->/g, '').trim();
   if (stripped === '') return renderEmpty();
 
@@ -133,13 +133,13 @@ function renderMarkdown(md, section) {
       .map(c => c.trim())
       .filter(c => c.length > 0);
 
-    return chunks.map(renderEntry).join('');
+    return chunks.map(c => renderEntry(c, sectionKey)).join('');
   }
 
   return `<div class="rendered-content">${wrapTables(replaceImagePlaceholders(marked.parse(stripped)))}</div>`;
 }
 
-function renderEntry(chunk) {
+function renderEntry(chunk, sectionKey) {
   // Strip a leading or trailing "---" divider if present
   let md = chunk
     .replace(/^---\s*$/m, '')
@@ -156,8 +156,19 @@ function renderEntry(chunk) {
   html = replaceImagePlaceholders(html);
   html = wrapTables(html);
 
+  // Solo per la sezione "Sottoclassi": raggruppa ogni abilità (titolo
+  // bold + tutti i paragrafi/liste successivi fino alla prossima
+  // abilità) in un unico contenitore .ability-block, così il riquadro
+  // rosso visualizza l'intera unità invece che il solo paragrafo iniziale.
+  const isSubclass = sectionKey === 'sottoclassi';
+  if (isSubclass) {
+    html = groupAbilities(html);
+  }
+
+  const cardClass = isSubclass ? 'race-card subclass-card' : 'race-card';
+
   return `
-    <details class="race-card">
+    <details class="${cardClass}">
       <span class="race-corner tl" aria-hidden="true"></span>
       <span class="race-corner tr" aria-hidden="true"></span>
       <span class="race-corner bl" aria-hidden="true"></span>
@@ -169,6 +180,68 @@ function renderEntry(chunk) {
       <div class="race-body">${html}</div>
     </details>
   `;
+}
+
+/**
+ * Raggruppa ogni abilità (paragrafo che inizia con <strong>...) +
+ * tutti i nodi fratelli successivi (paragrafi, liste, ecc.) fino alla
+ * prossima abilità o a un "interruttore" (titolo, hr, riga statistica
+ * in *italic*) in un singolo <div class="ability-block">.
+ */
+function groupAbilities(html) {
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html;
+  const out = document.createElement('div');
+  let block = null;
+
+  const firstElementChildIgnoringWhitespace = (node) => {
+    let el = node.firstChild;
+    while (el && el.nodeType === 3 && !el.textContent.trim()) el = el.nextSibling;
+    return el;
+  };
+
+  const isAbilityStart = (node) => {
+    if (!node || node.nodeType !== 1 || node.tagName !== 'P') return false;
+    const first = firstElementChildIgnoringWhitespace(node);
+    return !!(first && first.nodeType === 1 && first.tagName === 'STRONG');
+  };
+
+  // "Interruttori" che chiudono il blocco corrente senza essere
+  // considerati parte dell'abilità.
+  const isBreaker = (node) => {
+    if (!node || node.nodeType !== 1) return false;
+    if (/^H[1-6]$/.test(node.tagName)) return true;
+    if (node.tagName === 'HR') return true;
+    if (node.tagName === 'DETAILS' || node.tagName === 'SECTION') return true;
+    if (node.tagName === 'P') {
+      // Riga statistica del tipo "*Competenze:* ..." — inizia con <em>
+      const first = firstElementChildIgnoringWhitespace(node);
+      if (first && first.nodeType === 1 && first.tagName === 'EM') return true;
+    }
+    // Le tabelle e i loro wrapper chiudono il blocco
+    if (node.tagName === 'TABLE') return true;
+    if (node.classList && node.classList.contains('table-wrap')) return true;
+    if (node.classList && node.classList.contains('image-placeholder')) return true;
+    return false;
+  };
+
+  Array.from(tmp.childNodes).forEach(node => {
+    if (isAbilityStart(node)) {
+      block = document.createElement('div');
+      block.className = 'ability-block';
+      out.appendChild(block);
+      block.appendChild(node);
+    } else if (isBreaker(node)) {
+      block = null;
+      out.appendChild(node);
+    } else if (block) {
+      block.appendChild(node);
+    } else {
+      out.appendChild(node);
+    }
+  });
+
+  return out.innerHTML;
 }
 
 /**

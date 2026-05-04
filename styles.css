@@ -626,6 +626,66 @@ body::before {
   letter-spacing: 0.05em;
 }
 
+/* ============================================================
+   SOTTOCLASSI — abilità raggruppate (.ability-block)
+   Solo dentro .subclass-card: ogni abilità diventa un singolo
+   riquadro che racchiude titolo + tutti i paragrafi/liste collegati.
+   ============================================================ */
+
+.subclass-card .race-body .ability-block {
+  background:
+    linear-gradient(135deg,
+      rgba(139, 26, 26, 0.13),
+      rgba(139, 26, 26, 0.02) 70%);
+  border-left: 3px solid var(--crimson);
+  padding: 14px 18px 12px;
+  margin: 18px 0;
+  border-radius: 0 4px 4px 0;
+  box-shadow: inset 0 1px 0 rgba(201, 169, 97, 0.06);
+}
+
+/* Il paragrafo interno con <strong> NON deve avere il box individuale,
+   altrimenti otteniamo riquadri annidati. Sovrascriviamo il default. */
+.subclass-card .race-body .ability-block p:has(> strong:first-child) {
+  background: none;
+  border-left: none;
+  padding: 0;
+  margin: 0 0 6px 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Spaziatura interna pulita per i paragrafi e le liste raggruppate */
+.subclass-card .race-body .ability-block p {
+  margin: 8px 0;
+  color: var(--ivory);
+}
+.subclass-card .race-body .ability-block p:first-child {
+  margin-top: 0;
+}
+.subclass-card .race-body .ability-block p:last-child,
+.subclass-card .race-body .ability-block ul:last-child,
+.subclass-card .race-body .ability-block ol:last-child {
+  margin-bottom: 0;
+}
+.subclass-card .race-body .ability-block ul,
+.subclass-card .race-body .ability-block ol {
+  margin: 8px 0 8px;
+}
+
+/* Fallback per browser che non supportano :has() — almeno togliamo
+   bordo/sfondo sul paragrafo interno usando una regola più generica. */
+@supports not (selector(:has(*))) {
+  .subclass-card .race-body .ability-block > p:first-child {
+    background: none;
+    border-left: none;
+    padding: 0;
+    margin: 0 0 6px 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
 /* Fallback for browsers without :has()  --------------------- */
 @supports not (selector(:has(*))) {
   .race-body p > em:first-child {
