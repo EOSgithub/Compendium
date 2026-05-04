@@ -99,3 +99,114 @@ A partire dal 14° livello, diventi tutt'uno con il fulmine che scorre in te. Il
 - *Passo Fulmineo.* Ora puoi muoverti fino alla tua velocità massima e puoi scegliere di fonderti con il fulmine, teletrasportando la distanza percorsa.
 
 ---
+## Bard: College of the Apocalypse
+I bardi dell'Apocalisse sono maestri nell'evocare gli antichi poteri degli dei ultraterreni, richiamando la loro forza per seminare il caos nel regno dei mortali. Tutti coloro che ascoltano le loro armonie aberranti li temono e li venerano. 
+
+Con ogni strofa che compongono, un membro del Collegio si avvicina alla rivelazione finale degli orrori che si celano oltre il velo. 
+Man mano che progrediscono nei loro studi, acquisiscono la capacità di evocare poteri devastanti con la loro musica. Possono manifestare sciami di dolore, squarciare la realtà e scatenare ondate di follia sui loro nemici.
+
+![Illustration](content/img/Apocalypse.png)
+
+---
+
+**Sinfonia Infinita**
+Quando entri a far parte del Collegio dell'Apocalisse al 3° livello, e di nuovo al 6° e al 14° livello, ottieni un ulteriore utilizzo della tua capacità Ispirazione Bardica.
+In cambio, il tuo dado di Ispirazione Bardica non cambia al 5° livello, rimanendo un d6; diventa un d8 al 10° livello e un d10 al 15° livello.
+
+**Coro Eldritico**
+Al 3° livello, impari a usare la tua magia bardica per evocare il potere degli Antichi. Impari due Melodie Arcane a tua scelta, descritte in dettaglio nella sezione "Melodie Arcane" qui sotto. 
+
+Puoi usare una melodia come azione, spendendo un utilizzo della tua Ispirazione Bardica. Dopo aver usato una melodia, non puoi usarla di nuovo finché non completi un riposo breve o lungo.
+
+Affinché una creatura venga influenzata da una delle tue melodie, deve essere in grado di sentirti quando esegui l'azione.
+Impari un'ulteriore Melodia Arcana a tua scelta al 6° e al 14° livello.
+
+Quando completi un riposo lungo, puoi addentrarti in ciò che si cela oltre il velo, sostituendo una o più melodie che conosci con un'altra. Ogni volta che tenti di sostituire una melodia, effettua un tiro salvezza su Carisma con CD 17.
+In caso di fallimento, perdi il controllo del tuo viaggio mentale nel vuoto; subisci un attacco di follia a breve termine, non puoi sostituire quella melodia e non puoi sostituire altre melodie finché non completi un riposo lungo.
+
+---
+
+**Conoscenza da Oltre le Stelle**
+Al 6° livello, le folli rivelazioni che tormentano la tua mente ti guidano attraverso il vuoto insidioso. Impari a parlare, leggere e scrivere il Linguaggio Profondo. Inoltre, ogni volta che effettui una prova di Intelligenza relativa al cosmo o all'occulto, ottieni un bonus a quella prova pari al risultato di un tiro del tuo dado di Ispirazione Bardica (questo non consuma il dado).
+
+**Fauci Divoratrici**
+A partire dal 6° livello, le tue parole possono evocare esseri da oltre il velo. Quando una creatura che possiede un dado di Ispirazione Bardica da te viene bersagliata da un attacco, può usare la sua reazione per spendere il dado, evocando una fauce Eldritica che la inghiotte e la protegge. 
+
+Fino all'inizio del suo prossimo turno, ottiene un bonus alla sua AC pari al numero tirato. Se questo fa sì che l'attacco che ha innescato l'attacco manchi, la creatura bersagliata può scegliere di essere traslata attraverso lo spazio dalla fauce, teletrasportandosi in un punto
+entro 30ft da essa che può vedere; se lo fa, perde il bonus alla sua AC.
+
+---
+
+**Canto dell'Apocalisse**
+A partire dal 14° livello, impari l'incantesimo ordine divino: trascendenza. Non conta ai fini del numero di incantesimi che conosci. 
+Puoi anche lanciarlo una volta senza consumare uno slot incantesimo e recuperi la capacità di farlo al termine di un riposo lungo. 
+Quando lanci l'incantesimo in questo modo, l'apocalisse scorre attraverso di te; i danni non possono interrompere la tua concentrazione su questo incantesimo e superi automaticamente i tiri salvezza per mantenere il controllo sull'incantesimo.
+
+---
+
+**Eldritch Melodies**
+*Ballata della Città Senza Nome* 
+Prerequisito: 3° livello
+Incanali il nome della città perduta dei Grandi Antichi, distorcendo la realtà. Ogni creatura entro 30ft da te deve superare un tiro salvezza su Forza o essere spinta fino a 10ft in una direzione a tua scelta e messa a terra prona.
+
+La distanza a cui una creatura viene spinta aumenta a 20ft al 6° livello e a 30ft al 14° livello.
+
+*Concordia degli Abissi*
+Prerequisito: 3° livello
+Canti una melodia ipnotica che evoca la presenza degli orrori dormienti sotto le onde. Scegli una creatura entro 60ft da te. Essa deve superare un tiro salvezza su Saggezza o diventare incapacitata e la sua velocità si riduce a 0 per 1 minuto, finché non subisce danni, o finché qualcuno non usa un'azione per scuoterla o schiaffeggiarla per farla uscire dal suo torpore.
+A partire dal 6° livello, puoi bersagliare due creature e, al 14° livello, puoi bersagliare un numero di creature pari al tuo modificatore di Carisma (minimo tre).
+
+*Epodo Per Chi Suona la Campana*
+Prerequisito: 3° livello
+Suoni le campane della morte, rafforzando i tuoi alleati. Scegli fino a cinque creature entro 30ft da te. Ogni creatura ottiene un bonus ai tiri per colpire e ai danni pari alla metà del tuo modificatore di Carisma (arrotondato per eccesso) per 2 round, fino alla fine del tuo turno successivo.
+
+A partire dal 6° livello, il bonus ai tiri per i danni è pari al tuo modificatore di Carisma e, al 14° livello, il bonus sia ai tiri per colpire che ai danni è pari al tuo modificatore di Carisma.
+
+*Trascendenza della Carne*
+Prerequisito: 3° livello
+Intoni un canto di gloria in nome della corruzione, evocando tentacoli contorti che circondano e proteggono i tuoi alleati. Ogni creatura consenziente a tua scelta entro 30ft da te ottiene punti ferita temporanei pari alla metà del tuo livello da bardo + il tuo modificatore di Carisma, mentre tentacoli spuntano dalla sua bocca, dagli occhi e dalle orecchie, difendendola senza ostacolarne le capacità. Inoltre, hanno vantaggio alle prove di Forza e ai tiri salvezza su Forza fino alla fine del tuo prossimo turno.
+
+*Aria del Predatore Disprezzato*
+Prerequisito: 6° livello
+Intoni una melodia inquietante che evoca la presenza degli orrori in agguato oltre il velo. Scegli una creatura entro 30ft da te. Essa viene parzialmente assorbita dal cosmo per 1 ora, ottenendo un bonus di +10 alle prove di Furtività e diventando impossibile da rintracciare tranne che con mezzi magici. 
+Inoltre, come azione, la creatura può diventare incorporea e muoversi attraverso altre creature e oggetti come se fossero terreno difficile fino alla fine del suo turno. Se termina il suo turno all'interno di un oggetto, subisce 5 (1d10) danni da forza e viene immediatamente spostata nello spazio libero più vicino. Una volta che la creatura usa questa azione, non può farlo di nuovo per tutta la durata della trasformazione.
+
+A partire dal 14° livello, quando la creatura usa un'azione per diventare incorporea, l'effetto dura invece 10 minuti.
+
+*Ode alla Sottomissione*
+Prerequisito: 6° livello
+Invochi il potere di un Grande Antico divoratore, evocando un'orda di tentacoli contorti per intrappolare i tuoi nemici. Ogni creatura a tua scelta che puoi vedere entro 30ft da te deve effettuare un tiro salvezza su Destrezza, rimanendo immobilizzata per 1 minuto in caso di fallimento. Una creatura può ripetere il tiro salvezza alla fine di ogni suo turno, ponendo fine all'effetto su di sé in caso di successo.
+
+A partire dal 14° livello, una creatura immobilizzata subisce 3d6 danni necrotici all'inizio di ogni suo turno.
+
+*Requiem del Caos*
+Prerequisito: 6° livello
+Assumi le sembianze del Caos Strisciante, sussurrando la fine dei tuoi nemici. Scegli fino a due creature entro 60ft da te. Hanno svantaggio alle prove di Saggezza e ai tiri salvezza su Saggezza fino alla fine del tuo prossimo turno.
+
+A partire dal 14° livello, puoi bersagliare un numero di creature pari al tuo modificatore di Carisma (minimo 3).
+
+*Canto della Nascita Abietta*
+Prerequisito: 6° livello
+Invochi il potere del caos primordiale, scagliando un'orda di feti contorti. Ogni creatura in un cono di 30ft che si origina da te deve effettuare un tiro salvezza su Destrezza, subendo un numero di d4 di danni necrotici pari al tuo livello in questa classe in caso di fallimento, o la metà di tali danni in caso di successo.
+
+A partire dal 14° livello, la dimensione del cono aumenta a 60ft metri.
+
+*Assonanza dei Sogni*
+Prerequisito: 14° livello
+Canti una melodia che ti permette di viaggiare attraverso il regno dei sogni. Evoca un portale circolare di 20ft di diametro che collega uno spazio libero che puoi vedere entro 10ft da te a una posizione precisa che conosci molto bene entro 2km da te, sullo stesso piano di esistenza. Puoi orientare il portale in qualsiasi direzione tu scelga. Il portale dura 1 minuto.
+Qualsiasi cosa attraversi il portale viene istantaneamente trasportata nella posizione scelta, apparendo in uno spazio libero più vicino a quella posizione.
+
+*Eufonia di Autodistruzione*
+Prerequisito: 14° livello
+Incidi l'antico simbolo della convergenza della luce, aprendo un portale verso reami ineffabili. Scegli una creatura che puoi vedere entro 60ft da te. Essa deve superare un tiro salvezza su Carisma o essere attratta attraverso il portale verso una destinazione sconosciuta. Alla fine del tuo prossimo turno, il bersaglio ritorna allo spazio che occupava in precedenza, o allo spazio libero più vicino. Se il bersaglio non è un'aberrazione, subisce 5d12 danni psichici e deve superare un tiro salvezza su Saggezza o subire una follia permanente.
+
+*Incubo dell'Abisso*
+Prerequisito: 14° livello
+Reciti gli incantesimi proibiti di Colui Che Mente Sognando, evocando una visione del potere dell'essere. Ogni creatura a tua scelta entro 60ft da te deve superare un tiro salvezza su Saggezza o essere stordita fino alla fine del tuo prossimo turno.
+
+*Sussurri del Profanatore di Carne*
+Prerequisito: 14° livello
+Reciti un sapere proibito appreso da un tomo di carne, evocando uno sciame di creature ronzanti e mangia-viscere. Per 1 minuto, una sfera di vermi contorti con un raggio di 30ft appare in un punto che puoi vedere entro 60ft da te. Quando una creatura entra nell'area
+per la prima volta in un turno o inizia il suo turno lì, viene divorata da essa e deve effettuare un tiro salvezza su Costituzione. Subisce 5d6 danni necrotici ed è avvelenata per 1 minuto in caso di fallimento del tiro salvezza, o la metà dei danni e non è avvelenata in caso di successo. Una creatura avvelenata può ripetere il tiro salvezza alla fine di ogni suo turno, ponendo fine all'effetto su di sé in caso di successo. In ogni tuo turno dopo aver evocato lo sciame, puoi usare un'azione bonus per spostarlo fino a 30ft in qualsiasi direzione. Questo effetto termina prima se subisci danni da fuoco o radianti.
+
+---
