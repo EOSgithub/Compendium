@@ -3,7 +3,7 @@ In un tempo ormai lontano, il potere di controllare la gravità fu rubato e diff
 
 Che sia per talento innato, addestramento intenso o rituali maledetti, tutti gli Spaccaterra condividono lo stesso cammino di distruzione, schiacciando i loro nemici e riducendoli in polvere. Gli Earthbreaker prosperano nel cuore del campo di battaglia, dove distruggono i loro nemici, trascinano la loro faccia sul selciato e non lasciano dietro di sé altro che cadaveri. Il potere di rimodellare il mondo, di piegarlo e spezzarlo a piacimento, è un potere che molti desiderano, eppure pochi lo padroneggiano come gli Earthbreaker.
 
-![Illustration](/content/Earthbreaker.png)
+![Illustration](content/Earthbreaker.png)
 
 ---
 
@@ -57,7 +57,7 @@ Un Cuore Galvanico è una bestia, un mostro da battaglia. I loro corpi traboccan
 
 Gli Scions hanno creato i Cuori Galvanici utilizzando barre galvanizzate impiantate nella colonna vertebrale di neonati, prima di sottoporli a una violenta terapia d'urto. Di quei bambini, alcuni svilupparono la capacità di imbrigliare i fulmini, mentre molti altri rimasero invalidi a vita: un piccolo prezzo da pagare per la salvezza della città. Questa stessa tecnologia fu poi utilizzata per creare i Predatori Galvanizzati, nemici mortali dei Cuori Galvanici, poiché gli Scions iniziarono a temere la propria creazione.
 
-![Illustration](/content/Galvanic.png)
+![Illustration](content/Galvanic.png)
 
 ---
 
