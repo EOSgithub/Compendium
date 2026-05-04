@@ -742,6 +742,12 @@ body::before {
 
 /* ============================================================
    TABLES  (dadi della personalità, ideali, legami, difetti)
+   ============================================================
+   Le regole qui sotto si applicano a *qualsiasi* <table> che vive
+   dentro una card (.race-body) o nel contenuto generico
+   (.rendered-content), così funzionano anche se per qualche motivo
+   il wrapper JS non riuscisse a girare. La classe .lore-table e
+   il wrapper .table-wrap aggiungono semplicemente cornice e scroll.
    ============================================================ */
 
 /* Wrapper: permette lo scroll orizzontale su schermi stretti
@@ -774,16 +780,44 @@ body::before {
   pointer-events: none;
 }
 
+/* Tabelle: prendiamo qualsiasi <table> dentro le card o il contenuto
+   generico — così se anche app.js non aggiunge la classe .lore-table
+   lo stile si applica comunque. */
+.race-body table,
+.rendered-content table,
 .lore-table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
+  margin: 18px 0 22px;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1rem;
   color: var(--ivory);
+  background:
+    linear-gradient(180deg,
+      rgba(38, 29, 21, 0.85) 0%,
+      rgba(21, 17, 13, 0.9)  100%);
+  border: 1px solid var(--gold-dim);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(201, 169, 97, 0.08);
+}
+
+/* Quando la tabella è già dentro .table-wrap, il wrapper si occupa
+   di bordi/sfondo e la tabella resta trasparente. */
+.table-wrap > table {
+  margin: 0;
+  border: none;
+  border-radius: 0;
   background: transparent;
+  box-shadow: none;
 }
 
 /* Header row */
+.race-body table thead th,
+.rendered-content table thead th,
 .lore-table thead th {
   font-family: 'Cinzel', serif;
   font-size: 0.78rem;
@@ -802,9 +836,11 @@ body::before {
   white-space: nowrap;
 }
 
-/* Cella intestazione del dado (D6, D8, D20, ...) */
-.lore-table thead th.dice-col,
-.lore-table thead th:first-child {
+/* Cella intestazione del dado (D6, D8, D20, ...) — sempre la prima */
+.race-body table thead th:first-child,
+.rendered-content table thead th:first-child,
+.lore-table thead th:first-child,
+.lore-table thead th.dice-col {
   text-align: center;
   color: var(--crimson-bright);
   text-shadow: 0 1px 8px rgba(178, 34, 34, 0.3);
@@ -813,15 +849,33 @@ body::before {
 }
 
 /* Body cells */
+.race-body table tbody td,
+.rendered-content table tbody td,
 .lore-table tbody td {
   padding: 10px 14px;
   vertical-align: top;
   border-bottom: 1px dashed rgba(201, 169, 97, 0.18);
   line-height: 1.55;
   color: var(--ivory);
+  text-align: left;
+}
+
+/* Annulla l'eventuale drop-cap della .race-body sulle celle */
+.race-body table td::first-letter,
+.race-body table th::first-letter {
+  font-family: inherit;
+  font-size: inherit;
+  float: none;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  text-shadow: none;
 }
 
 /* Prima colonna (numero del dado) */
+.race-body table tbody td:first-child,
+.rendered-content table tbody td:first-child,
 .lore-table tbody td:first-child {
   font-family: 'Cinzel', serif;
   font-weight: 700;
@@ -835,29 +889,46 @@ body::before {
 }
 
 /* Striping leggero sulle righe pari */
+.race-body table tbody tr:nth-child(even) td,
+.rendered-content table tbody tr:nth-child(even) td,
 .lore-table tbody tr:nth-child(even) td {
   background: rgba(201, 169, 97, 0.035);
 }
+.race-body table tbody tr:nth-child(even) td:first-child,
+.rendered-content table tbody tr:nth-child(even) td:first-child,
 .lore-table tbody tr:nth-child(even) td:first-child {
   background: rgba(201, 169, 97, 0.07);
 }
 
 /* Hover (utile su desktop) */
+.race-body table tbody tr:hover td,
+.rendered-content table tbody tr:hover td,
 .lore-table tbody tr:hover td {
   background: rgba(178, 34, 34, 0.08);
 }
+.race-body table tbody tr:hover td:first-child,
+.rendered-content table tbody tr:hover td:first-child,
 .lore-table tbody tr:hover td:first-child {
   color: var(--ivory);
   background: rgba(178, 34, 34, 0.14);
 }
 
 /* Ultima riga senza bordo inferiore */
+.race-body table tbody tr:last-child td,
+.rendered-content table tbody tr:last-child td,
 .lore-table tbody tr:last-child td {
   border-bottom: none;
 }
 
-/* Le tabelle dentro le card devono respirare meno ai bordi */
-.race-body .table-wrap { margin-left: -4px; margin-right: -4px; }
+/* Neutralizza eventuali stili "p > strong/em first-child" su contenuto
+   tabellare che potrebbe altrimenti ereditare le scatole rosse delle
+   abilità (succede quando una cella contiene <strong>...). */
+.race-body table p {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 /* ============================================================
    EMPTY / LOADING / ERROR STATES
@@ -937,9 +1008,22 @@ body::before {
   .race-card summary { padding: 16px 18px; font-size: 1.08rem; }
   .race-body { padding: 4px 18px 20px; }
 
+  .race-body table,
+  .rendered-content table,
   .lore-table { font-size: 0.95rem; }
+
+  .race-body table thead th,
+  .rendered-content table thead th,
   .lore-table thead th { padding: 10px 10px; font-size: 0.72rem; letter-spacing: 0.14em; }
+
+  .race-body table tbody td,
+  .rendered-content table tbody td,
   .lore-table tbody td { padding: 9px 10px; }
+
+  .race-body table thead th:first-child,
+  .race-body table tbody td:first-child,
+  .rendered-content table thead th:first-child,
+  .rendered-content table tbody td:first-child,
   .lore-table thead th.dice-col,
   .lore-table thead th:first-child,
   .lore-table tbody td:first-child {
