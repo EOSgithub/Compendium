@@ -26,20 +26,20 @@ L'intelletto (INT) di una creatura può aiutarla a comprendere conoscenze proibi
 
 ---
 ## Riposi Modificati
-**Short Rest Adjustments**
+**Short Rest Adjustments** 
 I riposi brevi possono essere completati in 10 minuti, ma solo i primi 2 riposi brevi dopo un riposo lungo ricaricano le capacità. Ulteriori riposi brevi prima di un riposo lungo consentono solo di effettuare tiri di dado per il recupero dei punti ferita.
 
-**Long Rest Adjustments**
+**Long Rest Adjustments** 
 I personaggi possono ottenere tutti i benefici di un lungo riposo solo in aree sicure designate (ad esempio, la Grande Cattedrale o una locanda pesantemente sorvegliata). 
 
 La ragione è semplice: si dorme molto meglio sapendo di non rischiare di essere attaccati o uccisi nel sonno. L'angoscia mentale renderebbe il sonno meno riposante. 
 
 Un'area sicura è qualsiasi luogo in cui il gruppo può rilassarsi senza timore di essere attaccato. Come GM, un modo semplice per determinare se un luogo può essere considerato un'area sicura è chiedersi: "Il gruppo dovrebbe fare la guardia per la notte?". Se la risposta è no, allora si può considerare un'area sicura.
 
-**Rest Distruption**
+**Rest Distruption** 
 Se un riposo lungo viene interrotto, sia esso a causa di un combattimento, un'imboscata, una riunione d'emergenza o altro, i giocatori ottengono solo i benefici di un riposo lungo parziale (vedi sotto). Se non tornano a completare il riposo lungo immediatamente dopo l'interruzione, ottengono solo i benefici di un riposo breve.
 
-**Partial Long Rest**
+**Partial Long Rest** 
 Riposare al di fuori delle zone sicure offre un recupero limitato. Al termine di un riposo lungo parziale, i personaggi:
 - Recuperano un terzo dei Dadi Vita spesi. 
 - Recuperano l'uso delle abilità che si ricaricano con i riposi brevi. Tuttavia, le abilità specifiche del riposo lungo rimangono esaurite.
@@ -117,3 +117,59 @@ Inoltre, a Luyarnha sono disponibili 2 armi marziali non convenzionali:
 | Mannaia Serrata |  3 sp | 1d8 taglienti  | 4 lb | Heavy, Versatile (1d12)           |
 
 ---
+## Resurrezione
+Le magie di Resurrezione non sono un dono divino, non sono una tenera misericordia intessuta da mani benevole: sono una violazione, una lama conficcata nel ventre dell'ordine naturale. 
+Strappare un'anima dall'abbraccio della morte significa sfidare l'inevitabile decomposizione che reclama ogni carne, è l'arte di un ladro, rubare dall'abisso solo per dare alla luce qualcosa che non è né vivo né morto, una bestemmia barcollante cucita con fili di tormento.
+Nessun dio della luce benedirebbe mai un simile atto; proviene dalla fossa, dalla malizia delle Tre Sorelle, una maledizione mascherata da salvezza: Il Rituale di Cucitura.
+
+(Ogni altro tipo di resurrezione durante una campagna a Luyarnha fallirà automaticamente)
+
+---
+
+**Cerchio Intrecciato**
+Parte integrante di ogni Rituale di Cucitura è il Cerchio Intrecciato, un artefatto intriso di corruzione. 
+Creato con spago annerito, tendini, e viti morte, questi cerchi richiedono una meticolosa precisione nella loro creazione. 
+
+Possono essere creati solo a mano o donati come doni da antiche e sconosciute entità la cui influenza si estende ben oltre la nostra esistenza mortale.
+
+Acquistarli o rubarli scatena l'ira delle Tessitrici e delle Sorelle. Se un rituale viene eseguito con un Cerchio Intrecciato ottenuto in questo modo, il trasgressore va incontro a una morte troppo vile per essere descritta.
+
+In alternativa, un gruppo di individui determinati può creare un Cerchio Intrecciato procurandosi 100gp di spago annerito, 100gp di tendini e 50gp di viti morte ed eseguendo i seguenti compiti in ordine:
+- Tentare una prova di Strumenti da Tessitore con CD 15 per annodare lo spago in nodi maledetti. Un fallimento in questa prova causerà alla creatura che tenta la prova un punto di Follia Permanente e l'incapacità di intrecciare nuovamente questi simboli per 1d10 giorni.
+- Tentare una prova di Saggezza (Medicina) con CD 16 per legare lo spago con i tendini. Il fallimento di questa prova distruggerà i nodi maledetti e la creatura che tenta la prova subirà la condizione Avvelenato per 1d10 giorni,che non può essere rimossa in alcun modo. Mentre è Avvelenata in questo modo, la creatura subisce 3d10 danni Necrotici ogni volta che tenta nuovamente la prova.
+- Effettuare una prova di Intelligenza (Natura) con CD 17 per legare lo spago e i tendini con viti morte. Il fallimento di questa prova distruggerà il cerchio intrecciato e la creatura che tenta la prova subirà la condizione Paralizzata per 1d10 giorni, che non può essere rimossa in alcun modo.
+
+Se tutte e tre le prove sono state completate con successo, è stato creato un Cerchio Intrecciato. 
+Il cerchio è un oggetto magico Minuscolo e ha una AC di 15, 100 Punti Ferita e Immunità a tutti i tipi di danno tranne Fuoco e danni da Forza. Il Cerchio Intrecciato perde la sua magia 1d10 giorni dopo la sua creazione.
+
+---
+
+**Ritual of Flesh Stitching**
+"Ciò che un tempo era integro giace ora in frantumi, ciò che ha generato l'umanità si ripresenta in putrefazione. Che la carne si inchini alla
+fauce famelica della trama."
+
+Il Rituale della Carne, sebbene il meno pericoloso dei tre, rimane un'offerta macabra a Sorella Bethany, la Maledetta della Carne. 
+Questo rito ripara un corpo spezzato oltre ogni quantità irriconoscibile: ossa polverizzate, viscere sparse e calpestate, ricostruendolo con tendini che si contorcono e pelle che si raggrinzisce al tocco delle Sorelle. La forma restaurata torna in vita, le sue ferite sigillate da cicatrici frastagliate, le sue vene pulsano di una fame che rode la sua stessa carne, un contorto tributo alla crudele arte della Maledetta.
+
+*Componenti*
+- Fiale di sangue provenienti da almeno 3 creature non umanoidi con Grado di Sfida pari al Grado di Sfida della creatura o al suo livello (se non ne possiede uno).
+- Incenso e polvere di smeraldo per un valore di 1000gp.
+- Un Cerchio Intrecciato.
+- Un pezzo di carne, pelle o capelli della creatura, che non può essere morta da più di 1 anno. Una volta raccolti i materiali necessari, tre o più creature possono iniziare il rituale in qualsiasi luogo all'aperto tra le 3 e le 5 del mattino. Il rituale richiede 1 ora per essere  completato.
+
+*Risultato*
+- Ogni 10 minuti durante il rituale, una delle tre creature deve effettuare una prova di Intelligenza (Arcana) con CD 15 o Intelligenza (Religione) con CD 15. Una creatura può spendere uno slot incantesimo di Livello 1 o superiore per ottenere un bonus alla sua prova pari al doppio dello slot incantesimo speso. 
+- Ogni creatura che partecipa al rituale deve effettuare almeno due prove di questo tipo e non può effettuare lo stesso tipo di prova due volte.
+- Al termine dell'ora, la creatura viene resuscitata e le viene creato un nuovo corpo. Quindi, tira 1d10 e sottrai una penalità di -1 dal risultato per ogni prova fallita durante il rituale. La creatura resuscitata viene afflitta da una maledizione dalla tabella  Maledizione della Carne riportata di seguito, in base al risultato.
+
+|  d10 | Maledizione                       | Effetto                                                                                                                                                                                                                                         |
+| ---: | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    1 | Maledizione della Carne Congiunta | La creatura torna in vita permanentemente fusa a una delle creature che l’hanno resuscitata (tira 1d3). Mantiene le sue statistiche originali, ha Velocità 0 ed è fisicamente attaccata all’altra creatura.                                     |
+|    2 | Maledizione della Carne Putrida   | La creatura invecchia di 1d6 anni al giorno. Il corpo si decompone rapidamente fino a una fine prematura.                                                                                                                                       |
+|    3 | Maledizione della Carne Alterata  | Acquisisce Vulnerabilità a un tipo di danno legato al sangue usato nel rituale. Scegli una creatura coinvolta: la vulnerabilità è a un danno presente nel suo blocco statistiche. Se non ne ha, scegli tra contundente, perforante o tagliente. |
+|    4 | Maledizione della Carne Deforme   | Il corpo si contorce. Tira 1d10 per la Velocità: 1–2: 1,5 m • 3–4: 3 m • 5–6: 4,5 m • 7–8: 6 m • 9–10: 7,5 m.                                                                                                                                   |
+|    5 | Maledizione della Carne Affamata  | Deve consumare razioni per 10 giorni ogni giorno. Se non lo fa, subisce 1 livello di Affaticamento.                                                                                                                                             |
+| 6–10 | Maledizione della Carne Mutata    | Diventa un licantropo. Tipo: umanoide e bestia. Può aumentare di +2 Forza, Destrezza o Costituzione (max 22). Subisce danni tripli da armi argentate o dorate dalla luna che infliggono contundenti, perforanti o taglienti.                    |
+
+---
+
